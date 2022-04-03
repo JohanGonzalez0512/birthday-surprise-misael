@@ -5,15 +5,15 @@ import { useNavigate } from "react-router-dom";
 import { checkWord } from '../../helpers/checkword';
 
 
-export const RiddleScreen1 = () => {
+export const RiddleScreen2 = () => {
   let navigate = useNavigate();
 
  
 
 const options =  {
-  correctWord:'yui',
-  route:'/pista-2',
-  urlImage:'/img/1.jpeg',
+  correctWord:'chowder',
+  route:'/pista-3',
+  urlImage:'/img/2.jpeg',
   navigate
 }
 
@@ -40,11 +40,11 @@ const options =  {
 
   return (
     <div className='container'>
-      <div className="container__card scroll">
+      <div className="container__card">
         <h2 className='container__card__title'>
-          ¿Cual fue el spoiler que Priscila te dijo por el cual le dejaste de hablar?
+          ¿Como se llama el niño gordo de monster house?
         </h2>
-        <img src='/img/1.1.jpeg' alt='pista' className='container__card__image'/>
+        <img src='/img/2.2.jpg' alt='pista' className='container__card__image'/>
       </div>
         <form onSubmit={handleSubmit}>
           <div className='container__input'>

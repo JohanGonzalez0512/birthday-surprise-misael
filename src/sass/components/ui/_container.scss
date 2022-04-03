@@ -1,6 +1,6 @@
 .container {
     
-    height: calc(100vh - 6rem);
+    height: 100vh;
     width: 100vw;
     background-color: #001219;
     display: flex;
@@ -19,6 +19,30 @@
         border-radius: 0.8rem;
         box-shadow: 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.05), -0.5rem -0.5rem 1.5rem rgba(0, 0, 0, 0.05);
         padding: 1rem;
+        align-items: center;
+        &__images {
+            width: 100%;
+            display: flex;
+            gap: .3rem;
+            align-items: center;
+            flex-wrap: wrap;
+           justify-content: center;
+            &__image {
+                width: 30%;
+               
+                object-fit: cover;
+                border-radius: 0.8rem;
+            }
+        }
+        &__image {
+            width: 20rem;
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 0.8rem;
+            border-top-right-radius: 0.8rem;
+        }
         &__title {
             font-size: 2rem;
             font-weight: bold;

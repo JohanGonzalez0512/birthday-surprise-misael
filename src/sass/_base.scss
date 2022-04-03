@@ -92,7 +92,7 @@ a .btn {
 
     /* width */
     &::-webkit-scrollbar {
-        width: 1rem;
+        width: .5rem;
     }
 
     /* Track */
@@ -103,7 +103,7 @@ a .btn {
 
     /* Handle */
     &::-webkit-scrollbar-thumb {
-        background: $color-secondary;
+        background: #05e7ef;
         border-radius: 1rem;
     }
 
